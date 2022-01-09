@@ -1,0 +1,75 @@
+body{
+    height:100vh;
+    background-image:url("https://www.wallpapermania.eu/images/lthumbs/2020-07/10502_Home-is-where-your-family-is-Lichens-Green-Moss-paint.jpg");
+    background-size:cover;
+}
+marquee{
+    font-size:3rem;
+    background-color:papayawhip;
+    border-radius:2rem;
+    margin-top:1rem;
+    width:27vw;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.mainScreen{
+    background-image:url("https://cdn.wallpapersafari.com/6/68/bFSXqn.jpg");
+    background-size: 530px;
+    width:30vw;
+    height:auto;
+    margin-left:30%;
+    margin-top:5%;
+    border-radius:4rem;
+}
+table{
+    height:50vh;
+}
+table td{
+background-color:cadetblue;
+border-radius:50%;
+width:5rem;
+height:5rem;
+padding:1rem;
+font-size:4rem;
+cursor:pointer;
+}
+p{
+    text-align:center;
+    background-color:lightslategray;
+    width:10rem;
+    height: 3rem;
+    overflow:auto;
+}
+.body1{
+    background-image:url("https://th.bing.com/th/id/R.a56d4144e568efefc1cd1e898ffec510?rik=zZZGUVd423NWkg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fwp1842457.jpg&ehk=nwknkhZEXxT8ez6rbNeNgJBlLChqkJuIyehienOR1Uo%3d&risl=&pid=ImgRaw&r=0");
+    background-size:cover;
+}
+.container1{
+    display:none;
+}
+@media(max-width:1200px){
+    table td{
+        background-color:palevioletred;
+        border-radius:50%;
+        width:2rem;
+        height:3rem;
+        padding:.5rem;
+        font-size:2.7rem;
+        cursor:pointer;
+        }
+}
+@media(max-width:700px){
+    table td{
+        background-color:palevioletred;
+        border-radius:50%;
+        width:1rem;
+        height:2rem;
+        padding:0rem;
+        font-size:1.5rem;
+        cursor:pointer;
+        }
+}
